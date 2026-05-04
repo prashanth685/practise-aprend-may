@@ -3,6 +3,7 @@ import Chart from "./Components/Chart";
 import LiveBarChart from "./Components/LiveBarChart";
 import Charts from "./Components/Charts";
 import List from "./Components/List";
+import Parent from "./Components/Parent";
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
       {/* <Chart />
       <LiveBarChart /> */}
       {/* <Charts /> */}
-      <List />
+      {/* <List /> */}
+      <Parent />
     </>
   );
 };
