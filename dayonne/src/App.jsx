@@ -4,6 +4,7 @@ import LiveBarChart from "./Components/LiveBarChart";
 import Charts from "./Components/Charts";
 import List from "./Components/List";
 import Parent from "./Components/Parent";
+import Varients from "./Components/Varients";
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <LiveBarChart /> */}
       {/* <Charts /> */}
       {/* <List /> */}
-      <Parent />
+      {/* <Parent /> */}
+      <Varients />
     </>
   );
 };
